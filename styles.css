@@ -1,0 +1,251 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+} 
+.title{
+    background: linear-gradient( #00bfff, #ff4c68, #ef8172); 
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    padding-top: 7%;  
+    flex-wrap: wrap-reverse; 
+  
+   padding-right: 7%;    
+   gap: 10px;
+   
+}
+.textbut{
+    padding-left: 10%;
+}
+.tex{
+   color: black;  
+ 
+  
+    
+}  
+.ct{
+    display: flex;
+    justify-content: center;
+}
+.buttons{
+    border-radius: 0.75rem;  
+    height: 10vh;  
+    width:  20vw ;
+    margin: 20px; 
+   
+} 
+h1{
+   font-family:  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    font-size: 48px; 
+    
+}
+
+.pido{
+    height: 60vh;
+}
+
+.features{
+  display: flex; 
+  justify-content: space-around;  
+  height: 50vh;  
+  padding-top: 90px;  
+  
+}
+
+.cloc{
+    height: 6vh;
+}
+.fr{
+    display: flex;
+    justify-content:center;
+    align-items: start; 
+} 
+.p{
+font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+font-family: 400;
+font-size: 16px;
+
+
+}
+.ex{
+   font-family:  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" ;
+    font-weight: 500;
+    font-size: 25px;
+} 
+@media (max-width:980px ){
+    .features{
+         display: flex;  
+         flex-direction: column;
+  justify-content: space-around;   
+  align-items: start; 
+  height: 50vh;  
+  padding-top: 90px;
+  padding-left: 10%;
+  
+
+    }
+}
+
+.testimonial { 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+    background-color: rgba(128, 128, 128, 0.521); 
+   text-align: center;   
+   padding: 10%;
+} 
+.te{
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 500;
+    font-size: 32px;
+   
+}
+ .doj
+ {
+    margin-top: 40px; 
+    border-radius: 70%;
+    height: 30vh;
+ }
+ .pblls{
+    font-weight: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+     font-size: 20px;
+     font-weight: 300;
+     
+ } 
+ .logo{ 
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+   
+
+ } 
+ .first{
+   height: 5vh;
+padding-left: 5vw; 
+} 
+@media (max-width:980px) {
+    .logo{ 
+        padding-top: 20px;
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+    }
+} 
+.pricing{
+    padding: 40px;
+    margin: 20px;
+}
+.po {
+
+    text-align: center; 
+}
+.cardboc{
+    border: 1px solid black;  
+    width: 23vw;
+    border-radius: 0.75rem ; 
+text-align: center;
+    
+} 
+.chu{
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 24px; 
+}
+.o{
+    font-size: 40px;  
+    margin-bottom: 15px; 
+}
+
+.sign{
+    font-size: 20px; 
+    width: 80%; 
+    margin-bottom: 20px;
+    margin-top: 20px ; 
+    border-radius: 0.75rem ;
+    height: 50px;  
+}
+.cards{ 
+    padding-top: 20px;
+    display: flex;  
+    justify-content: space-around;
+    align-items: center; 
+    gap: 10px ; 
+    
+}
+ @media (max-width:980px) {
+     .cards{ 
+        padding-top: 20px;
+        display: flex;  
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        gap: 10px ; 
+        
+    } 
+    
+
+    .cardboc{
+        border: 1px solid black;  
+        width: 50vw;
+        border-radius: 0.75rem ; 
+    text-align: center; 
+   margin: 20px;
+        
+    } 
+} 
+.fo { 
+
+    text-align: center; 
+ font-size: 40px;
+}
+.footer{
+    border: 1px solid black; 
+    display: flex;
+    justify-content: center;
+    align-items: start; 
+  padding: 50px; 
+  flex-wrap: wrap; 
+  background: linear-gradient(360deg,#00bfff, #ff4c68, #ef8172);
+} 
+.fot{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;    
+  
+}
+/* ul {
+    padding-left: 0;
+} */
+li{
+    list-style: none;
+} 
+.fl{
+    padding-left: 20px; 
+    
+} 
+@media (max-width:612px) {
+    .footer {
+        display: flex; 
+        flex-direction: column; 
+         
+    } 
+    .fot{
+        display: flex; 
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: start;    
+        
+      }
+}
+
+.gh{
+    font-size: 30px;    
+   
+} 
+
+ 
